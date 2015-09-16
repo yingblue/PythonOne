@@ -1,3 +1,9 @@
 #!/usr/bin/env python
 
-print "hello"
+import InodeManager
+
+path='/home/yt/Code'
+result = InodeManager.DirList()
+
+for item in result:
+    print item
